@@ -18,3 +18,88 @@ html {
 *:after {
   box-sizing: inherit;
 } /* Evitamos los efectos del padding y recalculamos pixeles para trabajar con rems */
+
+body {
+  min-height: 100vh;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--veryLightGray);
+}
+
+p {
+  color: var(--grayishBlue);
+}
+h3 {
+  margin: 0;
+}
+
+.contenedor {
+  width: 37.5rem;
+  height: 136rem;
+  padding: 9rem 3.2rem 7.8rem;
+} /* Medidas contenedor */
+
+.contenedor h1 {
+  font-weight: 200;
+  color: var(--grayishBlu);
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1.6rem;
+}
+.contenedor h2 {
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 2.5rem;
+}
+
+.contenedor p {
+  text-align: center;
+  line-height: 2.5rem;
+  margin-bottom: 7.4rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.card {
+  width: 31.2rem;
+  height: 22.4rem;
+  padding: 2.8rem 3rem;
+  border-radius: 1rem;
+  background-color: #fff;
+  box-shadow: 2px 4px 16px var(--grayishBlue);
+}
+.card p {
+  margin-top: 1.2rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  font-size: 1.2rem;
+}
+.imagen-card {
+  /* width: 5.8rem;
+  height: 5.8rem; */ /* Si coloco las medidas no me aplica el flex */
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.border-sup {
+  border-top: 5px solid var(--cyan);
+}
+.border-team {
+  border-top: 5px solid var(--red);
+}
+.border-karma {
+  border-top: 5px solid var(--orange);
+}
+.border-cal {
+  border-top: 5px solid var(--blue);
+}

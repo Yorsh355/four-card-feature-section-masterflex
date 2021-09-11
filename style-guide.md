@@ -14,17 +14,17 @@ The designs were created to the following widths:
 - margin-bottom: 78px
 - margin-left y rigth: 32px
 - espacio entre el título y el parrafo: 25px
-- interlineado del título: 18px
-- Espacio entre el parrafo y el card: 80px
+- interlineado del título: 16px
+- Espacio entre el parrafo y el card: 74px
 
-* card: width: 312px, height: 224px
+* card: width: 310px, height: 224px
 
 - espacio entre cards: 24px
 - sombra: bottom 16px, right 6px
 - color del borde: 5px
-- padding card 30px 28px
+- padding card 30px
 - separación entre el título y el parrafo: 16px
-- separación entre el parrafo y la imagen: 36px
+- separación entre el parrafo y la imagen: 28px 30px
 
 - Desktop: 1440px
 
